@@ -1,16 +1,19 @@
 
 body {
-  background-color: #bOd4d5;
-  color: black;
-}
-
-body {
   background-color: #b0d4d5;
   color: black;
   text-align: left;
   font-family: Afacad;
   margin-left: 10%;
   margin-right: 10%;
+}
+#bg {
+  width: 100vw;
+  height: 100vh;
+  z-index: -999;
+  position: fixed;
+  top: 0px;
+  left: 0px;
 }
 
 .heading {
