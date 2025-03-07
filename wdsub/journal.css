@@ -1,0 +1,29 @@
+body {
+  font-family: Bebas Neue;
+  text-align: center;
+  color: white;
+}
+
+#content {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+hr {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#bg {
+  z-index: -999;
+  position: fixed;
+  top: 0;
+  left: 0;
+} 
+
+#header {
+  width: 100%;
+  position: sticky;
+  top: 0px;
+  padding: 0px 0px 0px;
+}
