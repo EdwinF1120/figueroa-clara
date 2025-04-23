@@ -2,7 +2,7 @@
 body {
   background-color: #b0d4d5;
   color: black;
-  text-align: right;
+  text-align: left;
   font-family: Afacad;
   margin-left: 10%;
   margin-right: 10%;
@@ -59,4 +59,40 @@ hr {
 #footer {
   font-size: 120%;
   text-align: center;
+}
+
+#nav-list {
+  display: flex;
+  justify-content: center;
+  align-context: center;
+  text-align: center;
+  list-style-type: none;
+  position: relative;
+  background-color: #d3dbec;
+}
+
+#nav-list > li {
+  flex-grow: 1;
+  display: inline-block;
+  width: 100%;
+}
+
+# nav-list ul {
+  display: none;
+  background-color: #a3abec;
+}
+
+#nav-list li:hover {
+  background-color: #a3abec;
+  color: #dedbec;
+}
+
+#nav-list li:hover ul {
+  display: block;
+}
+
+#nav-list li ul {
+  list-style-type: none;
+  padding: 0px;
+  position: absolute;
 }
