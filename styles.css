@@ -62,6 +62,7 @@ hr {
 }
 
 #nav-list {
+  padding: 0px;
   display: flex;
   justify-content: center;
   align-context: center;
@@ -73,17 +74,24 @@ hr {
 
 #nav-list > li {
   flex-grow: 1;
+  display: block;
+  position: relative;
+  text-align: center;
+  margin: auto;
+}
+
+#nav-list li a {
   display: inline-block;
   width: 100%;
 }
 
 # nav-list ul {
   display: none;
-  background-color: #a3abec;
+  background-color: #a3abbc;
 }
 
 #nav-list li:hover {
-  background-color: #a3abec;
+  background-color: #a3abbc;
   color: #dedbec;
 }
 
@@ -95,4 +103,5 @@ hr {
   list-style-type: none;
   padding: 0px;
   position: absolute;
+  width: 100%;
 }
