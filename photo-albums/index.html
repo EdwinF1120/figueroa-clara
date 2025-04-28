@@ -2,13 +2,40 @@
 <html>
 <head>
   <title>Edwin's Photo Albums</title>
-  <link rel="stylesheet" href="/figueroa-clara/styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Agu+Display&family=Barriecito&display=swap" rel="stylesheet">  
-</head>
-<body>
-  <div id="gheader"></div>
-  <script src="/figueroa-clara/global-header.js"></script>
+  <link rel="stylesheet" href="yacs-1.github.io/figueroa-clara/styles.css">
+  <link rel="stylesheet" href="album.css">
+  <script src="album.js></script>
+<div id="gheader"></div>
+<script src="yacs-1.github.io/figueroa-clara/global-header.js"></script>
+
+
+<div id="big-container" onclick="hideBig(_self)">
+  <div>
+    <img id="big-img" src="https://motorweek.org/wp-content/uploads/2025/03/modifying-your-car-with-ai-1920x800.jpg" width="100%">
+  </div>
+</div>
+
+
+<div class="photo-row">
+  <div class="photo-container">
+    <img onclick="showBig(this)" src="https://www.motortrend.com/uploads/sites/5/2018/04/2019-Toyota-Corolla-Hatchback-XSE-front-three-quarter-03.jpg?w=768&width=768&q=75&format=webp" width="20%" alt="a blue gr corolla with 300 horsepower.">
+    <p>This was my fastest car, Blue.</p>
+  </div>
+</div>
+
+<div class="photo-row">
+  <div class="photo-container">
+    <img onclick="showBig(this)"
+src="https://www.motortrend.com/uploads/sites/5/2018/04/2019-Toyota-Corolla-Hatchback-XSE-front-three-quarter-03.jpg?w=768&width=768&q=75&format=webp" width="20%" alt="a blue gr corolla with 300 horsepower.">
+    <p>This was my fastest car, Blue.</p>
+  </div>
+</div>
+
+<div class="photo-row">
+  <div class="photo-container">
+    <img onclick="showBig(this)" src="https://www.motortrend.com/uploads/sites/5/2018/04/2019-Toyota-Corolla-Hatchback-XSE-front-three-quarter-03.jpg?w=768&width=768&q=75&format=webp" width="20%" alt="a blue gr corolla with 300 horsepower.">
+    <p>This was my fastest car, Blue.</p>
+  </div>
+</div>
 </body>  
 </html>
