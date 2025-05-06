@@ -36,7 +36,7 @@ h2.heading {
   padding: 5px;
   border-radius: 9px;
   margin: 5px;
-  background-color: #d3dbec;
+  background-color: #EA0201;
   color: #777777;
 }
 
@@ -47,13 +47,13 @@ a {
 }
 
 a:hover, a:visited {
-  color: #d1bec5;
+  color: #EA0201;
 }
 
 hr {
   height: 2px;
   border: 0px;
-  background-color: #d1bec5;
+  background-color: #EA0201;
 }
 
 #footer {
@@ -69,7 +69,7 @@ hr {
   text-align: center;
   list-style-type: none;
   position: relative;
-  background-color: #d3dbec;
+  background-color: #EA0201;
 }
 
 #nav-list > li {
