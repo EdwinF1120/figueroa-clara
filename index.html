@@ -14,7 +14,7 @@
     
     <img id="bg" src="/figueroa-clara/resource/bg.png">
     <div class="bordered">
-    <h2 class="heading">Weekly Webpage Submission</h2>
+    <h2 class="heading">Welcome<span id="userspan"></span></h2>
     <ol>
     <li>
       <a href="wdsub/week1.html">Week 1 submission</a></li>
@@ -67,5 +67,13 @@
     </ul>
   <br>
     <p>Click <a href="mailto:nathaneal.stamp@youngsvilleacademy.org?subject=Live%20Code%20Session%3Aedwin&cc=edwinfigueroa296@gmail.com&=bodyHi%20Mr.%20Stamp%20here%20is%20my%20my%20submission%3A%20" target="_blank">here</a> to submit a live code session</p>
+      <script>
+        let urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.has("variable1")) {
+          let username = urlParams.get("variable1");
+          let userspan = document.getElementById("userspan");
+          userspan.innerText = "," + username + ",";
+        }
+      </script>
   </body>
 </html>
