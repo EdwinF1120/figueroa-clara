@@ -100,6 +100,7 @@ hr {
 }
 
 #nav-list li ul {
+  display: none;
   list-style-type: none;
   padding: 0px;
   position: absolute;
